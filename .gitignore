@@ -1,0 +1,16 @@
+# Local-only course control files - never commit these
+CLAUDE.md
+curriculum.md
+progress-tracker.md
+
+# Python / OS noise
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# Local Claude Code settings - machine-specific, never commit
+.claude/
+
+# Real secrets - never commit; .env.example is the committed template
+.env
