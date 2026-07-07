@@ -33,3 +33,15 @@ Every term introduced in the course, in plain language, with the lesson where it
 | Markdown | Plain text with light markup (`#` = heading) that GitHub renders as formatted pages. | Lesson 00 |
 | ASCII diagram | A picture drawn with text characters, for quick inline structure. | Lesson 00 |
 | Mermaid diagram | A text description that GitHub renders into a real boxes-and-arrows graphic. | Lesson 00 |
+| System | A set of parts (servers, databases, caches, queues, network) that work together to do a job. | Lesson 01 |
+| System design | Deciding what the parts of a system are, how they connect, and how data flows, so the whole meets its goals under real-world pressure. | Lesson 01 |
+| Tradeoff | A choice where improving one thing forces another thing to get worse; naming the cost of every choice is the core skill. | Lesson 01 |
+| Functional requirement | What the system does — a feature, phrased "the user can ___". | Lesson 01 |
+| Non-functional requirement | How well the system does it — a quality, not a feature (scale, latency, availability, consistency, cost). | Lesson 01 |
+| Latency | The delay between asking for something and getting it — the wait; measured in milliseconds. (Numbers in Lesson 03.) | Lesson 01 |
+| Availability | The fraction of time a system is up and answering, measured in "nines" (99.9% ≈ 8.7 hrs downtime/year). (Full in Lesson 04.) | Lesson 01 |
+| Consistency | Whether all copies of the data agree right now; strong = always identical, eventual = agrees after a short delay. (Full in Lesson 39.) | Lesson 01 |
+| Strong consistency | Every reader sees the same, latest value at the same instant (e.g. a bank balance). | Lesson 01 |
+| Eventual consistency | Copies may briefly disagree but converge shortly after (e.g. a like count). | Lesson 01 |
+| Clarifying question | A question asked before designing, to narrow scope and pin down scale and constraints. | Lesson 01 |
+| Capacity estimation | Back-of-the-envelope math (requests/sec, storage, bandwidth) to size a system. (Full in Lesson 02.) | Lesson 01 |
